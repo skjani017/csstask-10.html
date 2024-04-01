@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid_box{
+            display: grid;
+            height: 400px;
+            width: 400px;
+            background-color: whitesmoke;
+            grid-template-columns: repeat(6, auto) ;
+            grid-template-columns: 20px 20px;
+            gap: 8px;
+           
+
+            
+        }
+        .cd1{
+            background-color: aquamarine;
+            grid-column-start: 1;
+            grid-column-end: 6;
+            justify-content: center;
+            display: grid;
+            align-items: center;
+        }
+      .cd2{
+        background-color: aqua;
+        grid-column-start: 1;
+            grid-column-end: 6;
+            justify-content: center;
+            display: grid;
+            align-items: center;
+         }
+         .cd3{
+            background-color: lightcoral;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-column-start:1;
+            grid-column-end: 4;
+            justify-content: center;
+            display: grid;
+            align-items: center;
+
+         }
+         .cd4{
+            background-color: beige;
+            grid-column-start: 4 ;
+            grid-column-end: 6;
+            justify-content: center;
+            display: grid;
+            align-items: center;
+         }
+         .cd5{
+            background-color: lightpink;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            justify-content: center;
+            display: grid;
+            align-items: center;
+         }
+         .cd6{
+            background-color:rgb(38, 38, 222);
+            grid-column-start: 1;
+            grid-column-end: 6;
+            justify-content: center;
+            display: grid;
+            align-items: center;
+             
+         }
+
+
+    </style>
+</head>
+<body>
+    <div class="grid_box">
+        <div class="cd1">header</div>
+        <div class="cd2">navigation</div>
+        <div class="cd3">aside</div>
+        <div class="cd4">content</div>
+        <div class="cd5">section</div>
+        <div class="cd6">footer</div>
+        
+      
+
+
+
+    </div>
+    
+</body>
+</html>
